@@ -120,9 +120,10 @@ ul {
   text-align: center;
   text-shadow: 2px 2px 1px gray; }
 
-#resume embed {
-  height: 800px;
-  width: 100%; }
+#resume iframe {
+  margin: 0 15vw;
+  height: 880px;
+  width: 70vw; }
 
 #portfolio {
   margin: 0 8% 5% 8%; }
