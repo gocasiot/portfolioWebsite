@@ -1,0 +1,40 @@
+$navHeight: 50px;
+$logoPad: $navHeight * 0.1;
+
+.navbar {
+	position: absolute;
+
+	width:100%;
+	height: $navHeight;
+	background-color: $blackish;
+	margin: 0;
+	text-align: center;
+	
+	a {
+		font-size: 3vh;
+	}
+
+
+}
+
+.navbar .navbar-nav {
+	float: none;
+	display: inline-block;
+}
+
+ul {
+	white-space: nowrap;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.navbar-brand {
+	padding: $logoPad 15px;
+}
+
+#mylogo{
+	height:$navHeight*0.8;
+}
+

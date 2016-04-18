@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/*Clean & Highlighted Color Palette*/
+$sky: #CAEBF2;
+$carbon: #A9A9A9;
+$watermelon: #FF3B3F;
+$neutral: #EFEFEF;
+
+/*Urban Living Color Palette*/
+$softgray: #DDDEDE;
+$blackish: #232122;
+$houseplant: #A5C05B;
+$bluegray: #7BA4A8;
+
+$freshblue: #67BACA;
+
+* {
+	font-family: Montserrat;
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+body {
+	background-image: url('/images/greyzz_@2x.png');
+}
+
+#container {
+   min-height:100%;
+
+   position:relative;
+}
+
+#content {
+	padding-top:50px;
+	padding-bottom:82px;
+}
+
+#footer {
+	position:absolute;
+	bottom:0;
+
+	width:100%;
+	height:72px;
+
+	background-color: $softgray;
+
+	img {
+		margin: 18px;
+		height: 36px;
+	}
+}
+
+.center {
+	text-align: center;
+}
+
+@import 'navbar/navbar';
+@import 'home/home';
+@import 'resume/resume';
+@import 'portfolio/portfolio';

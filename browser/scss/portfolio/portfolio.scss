@@ -1,0 +1,22 @@
+#portfolio {
+	margin: 0 8% 5% 8%;
+
+	h1 {
+		text-shadow: 2px 2px 1px gray;
+	}
+
+	h3 {
+		text-shadow: 1px 1px 1px $softgray;	
+	}
+
+	.screenshot {
+		height: 15em;
+		max-width: 100%;
+		box-shadow: 3px 3px 4px 2px #ccc;
+	}
+
+	p {
+		margin: 1em 0 1em 0;
+	}
+
+}

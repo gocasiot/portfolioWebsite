@@ -1,0 +1,91 @@
+.jumbotron {
+	background: rgba($blackish,0.95);
+
+	.nametitle {
+		padding: 4% 0 6% 0;
+	}
+
+	#name {
+		color: $houseplant;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	#title {
+		color: $freshblue;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	img {
+		height: 20em;
+	}
+
+}
+
+#aboutMe {
+	h2 {
+		text-align: center;
+		padding: 1em 0 1em 0;
+		text-shadow: 2px 2px 1px gray;
+	}
+
+	p {
+		text-align: left;
+		font-size: 1.25em;
+		margin: 1em 15% 1em 15%;
+	}
+}
+
+#techSkills {
+	h2 {
+		padding: 1em 0 1em 0;
+		text-shadow: 2px 2px 1px gray;
+	}
+
+	h3 {
+		text-shadow: 1px 1px 1px $softgray;
+	}
+
+	img {
+		height: 10em;
+	}
+
+	p {
+		padding: 0 10em 5em 10em;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.nametitle {
+		text-align: center;
+	}
+
+	#aboutMe {
+
+		p {
+			text-align: left;
+			font-size: 1em;
+			margin: 1em 15% 1em 15%;
+		}
+	}
+
+	#techSkills {
+		h2 {
+			padding: 1em 0 1em 0;
+			margin: 0 2em;
+		}
+
+		h3 {
+			padding: 1em 0 0 0;
+			margin: 0 2em;
+		}
+
+
+		p {
+			padding: 0 5em 5em 5em;
+		}
+	}
+
+}
+

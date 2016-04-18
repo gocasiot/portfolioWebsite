@@ -1,0 +1,138 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+/*Clean & Highlighted Color Palette*/
+/*Urban Living Color Palette*/
+* {
+  font-family: Montserrat; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; }
+
+body {
+  background-image: url("/images/greyzz_@2x.png"); }
+
+#container {
+  min-height: 100%;
+  position: relative; }
+
+#content {
+  padding-top: 50px;
+  padding-bottom: 82px; }
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 72px;
+  background-color: #DDDEDE; }
+  #footer img {
+    margin: 18px;
+    height: 36px; }
+
+.center {
+  text-align: center; }
+
+.navbar {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: #232122;
+  margin: 0;
+  text-align: center; }
+  .navbar a {
+    font-size: 3vh; }
+
+.navbar .navbar-nav {
+  float: none;
+  display: inline-block; }
+
+ul {
+  white-space: nowrap; }
+
+.nav li {
+  display: inline-block; }
+
+.navbar-brand {
+  padding: 5px 15px; }
+
+#mylogo {
+  height: 40px; }
+
+.jumbotron {
+  background: rgba(35, 33, 34, 0.95); }
+  .jumbotron .nametitle {
+    padding: 4% 0 6% 0; }
+  .jumbotron #name {
+    color: #A5C05B;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .jumbotron #title {
+    color: #67BACA;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  .jumbotron img {
+    height: 20em; }
+
+#aboutMe h2 {
+  text-align: center;
+  padding: 1em 0 1em 0;
+  text-shadow: 2px 2px 1px gray; }
+
+#aboutMe p {
+  text-align: left;
+  font-size: 1.25em;
+  margin: 1em 15% 1em 15%; }
+
+#techSkills h2 {
+  padding: 1em 0 1em 0;
+  text-shadow: 2px 2px 1px gray; }
+
+#techSkills h3 {
+  text-shadow: 1px 1px 1px #DDDEDE; }
+
+#techSkills img {
+  height: 10em; }
+
+#techSkills p {
+  padding: 0 10em 5em 10em; }
+
+@media screen and (max-width: 1000px) {
+  .nametitle {
+    text-align: center; }
+  #aboutMe p {
+    text-align: left;
+    font-size: 1em;
+    margin: 1em 15% 1em 15%; }
+  #techSkills h2 {
+    padding: 1em 0 1em 0;
+    margin: 0 2em; }
+  #techSkills h3 {
+    padding: 1em 0 0 0;
+    margin: 0 2em; }
+  #techSkills p {
+    padding: 0 5em 5em 5em; } }
+
+#resume h1 {
+  text-align: center;
+  text-shadow: 2px 2px 1px gray; }
+
+#resume embed {
+  height: 800px;
+  width: 100%; }
+
+#portfolio {
+  margin: 0 8% 5% 8%; }
+  #portfolio h1 {
+    text-shadow: 2px 2px 1px gray; }
+  #portfolio h3 {
+    text-shadow: 1px 1px 1px #DDDEDE; }
+  #portfolio .screenshot {
+    height: 15em;
+    max-width: 100%;
+    box-shadow: 3px 3px 4px 2px #ccc; }
+  #portfolio p {
+    margin: 1em 0 1em 0; }
