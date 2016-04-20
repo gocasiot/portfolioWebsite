@@ -66,6 +66,8 @@ ul {
   background: rgba(35, 33, 34, 0.95); }
   .jumbotron .nametitle {
     padding: 4% 0 6% 0; }
+    .jumbotron .nametitle span {
+      display: inline-block; }
   .jumbotron img {
     height: 20em; }
 
@@ -78,8 +80,6 @@ ul {
   color: #A5C05B;
   margin-top: 15px;
   margin-bottom: 15px; }
-  #title span {
-    display: inline-block; }
 
 #aboutMe h2 {
   text-align: center;

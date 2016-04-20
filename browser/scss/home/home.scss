@@ -3,6 +3,10 @@
 
 	.nametitle {
 		padding: 4% 0 6% 0;
+
+		span {
+			display: inline-block;
+		}
 	}
 
 	img {
@@ -21,11 +25,6 @@
 	color: $houseplant;
 	margin-top: 15px;
 	margin-bottom: 15px;
-
-	span {
-		display: inline-block;
-	}
-
 }
 
 
