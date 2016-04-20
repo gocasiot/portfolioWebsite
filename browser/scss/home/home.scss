@@ -15,6 +15,10 @@
 		color: $houseplant;
 		margin-top: 15px;
 		margin-bottom: 15px;
+
+		.word1 {
+			white-space-collapsing:discard;
+		}
 	}
 
 	img {

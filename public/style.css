@@ -74,6 +74,8 @@ ul {
     color: #A5C05B;
     margin-top: 15px;
     margin-bottom: 15px; }
+    .jumbotron #title .word1 {
+      white-space-collapsing: discard; }
   .jumbotron img {
     height: 20em; }
 
