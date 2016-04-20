@@ -66,18 +66,20 @@ ul {
   background: rgba(35, 33, 34, 0.95); }
   .jumbotron .nametitle {
     padding: 4% 0 6% 0; }
-  .jumbotron #name {
-    color: #67BACA;
-    margin-top: 15px;
-    margin-bottom: 15px; }
-  .jumbotron #title {
-    color: #A5C05B;
-    margin-top: 15px;
-    margin-bottom: 15px; }
-    .jumbotron #title .word1 {
-      white-space-collapsing: discard; }
   .jumbotron img {
     height: 20em; }
+
+#name {
+  color: #67BACA;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+#title {
+  color: #A5C05B;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+  #title span {
+    display: inline-block; }
 
 #aboutMe h2 {
   text-align: center;

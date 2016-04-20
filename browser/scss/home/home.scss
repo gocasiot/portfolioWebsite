@@ -5,27 +5,31 @@
 		padding: 4% 0 6% 0;
 	}
 
-	#name {
-		color: $freshblue;
-		margin-top: 15px;
-		margin-bottom: 15px;
-	}
-
-	#title {
-		color: $houseplant;
-		margin-top: 15px;
-		margin-bottom: 15px;
-
-		.word1 {
-			white-space-collapsing:discard;
-		}
-	}
-
 	img {
 		height: 20em;
 	}
 
 }
+
+#name {
+	color: $freshblue;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#title {
+	color: $houseplant;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+	span {
+		display: inline-block;
+	}
+
+}
+
+
+
 
 #aboutMe {
 	h2 {
